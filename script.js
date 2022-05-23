@@ -1,3 +1,3 @@
 function changeImage() {
-    document.getElementById("sadpeepo1.png").src="happypeepo1.png";
+    document.getElementById("sp1").src="happypeepo1.png";
 }
