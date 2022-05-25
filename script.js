@@ -9,6 +9,7 @@ function changeImage() {
 function sp1Hint() {
     alert("Try clicking ;)");
 }
+
 function sp2b() {
     var image2 = document.getElementById('sp2');
     if (image2.src.match("sadpeepo2.png")) {
@@ -20,6 +21,8 @@ function sp2b() {
 function sp2Hint() {
     alert("Try hovering your mouse over peepo!")
 }
+
+//Array for last peepo task
 var imgArray = new Array();
 
 imgArray[0] = new Image();
@@ -61,5 +64,12 @@ function previousImage(){
             document.getElementById("sp3").src = imgArray[i-1].src;
             break;
         }
+    }
+}
+function check() {
+    if (document.getElementById("sp1").src.match("happypeepo1.png") && document.getElementById("sp2").src.match("happypeepo2.png") && document.getElementById("sp3").src.match("happypeepo3.png")) {
+        alert("You've done it!  All the Peepos are happy!")
+    } else {
+        alert("Some of the Peepos still seem to be sadge. Double check to make sure you made all the Peepos happy :)")
     }
 }
