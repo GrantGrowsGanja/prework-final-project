@@ -1,3 +1,36 @@
 body {
     background: rgb(73, 115, 162);
 }
+.row {
+    display: flex;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+    border: 5px red;
+}
+.peep {
+    margin-top: 20%;
+}
+#center {
+    text-align: center;
+}
+#sp1hint {
+    margin-left: 12%;
+}
+#sp2hint {
+    margin-left: 31%;
+}
+#left {
+    margin-left: 19%;
+}
+#right {
+    margin-left: 20%;
+}
+#check {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+}

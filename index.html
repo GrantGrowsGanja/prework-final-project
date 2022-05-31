@@ -7,22 +7,24 @@
     <body>
         <script src="script.js"></script>
         <div>
-            <h1>Find out how to make all the Peepos happy at the same time!</h1>
+            <h1 id="center">Find out how to make all the Peepos happy at the same time!</h1>
         </div>
         <div class="row">
             <div class="column">
-                <img id="sp1" class="left" src="sadpeepo1.png" onclick="changeImage()" />
-                <button id="sp1hint" type="button" onclick="sp1Hint()">Hint?</button>
+                <img id="sp1" class="peep" src="sadpeepo1.png" onclick="changeImage()" />
             </div>
             <div class="column">
-                <img id="sp2" class="center" src="sadpeepo2.png" onmouseover="sp2b()"/>
-                <button id="sp2hint" type="button" onclick="sp2Hint()">Hint?</button>
+                <img id="sp2" class="peep" src="sadpeepo2.png" onmouseover="sp2b()"/>
             </div>
             <div class="column">
-                <img id="sp3" class="right" src="sadpeepo3.png" />
-                <button id="left" type="button" onclick="previousImage()"><-</button>
-                <button id="right" type="button" onclick="nextImage()">-></button>
+                <img id="sp3" class="peep" src="sadpeepo3.png" />
             </div>
+        </div>
+        <div>
+            <button id="sp1hint" type="button" onclick="sp1Hint()">Hint?</button>
+            <button id="sp2hint" type="button" onclick="sp2Hint()">Hint?</button>
+            <button id="left" type="button" onclick="previousImage()"><-</button>
+            <button id="right" type="button" onclick="nextImage()">-></button>
         </div>
         <div>
             <button id="check" type="button" onclick="check()">Done?</button>
