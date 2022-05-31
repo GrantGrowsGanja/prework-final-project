@@ -6,8 +6,9 @@
     </head>
     <body>
         <script src="script.js"></script>
-        <div>
+        <div class="header">
             <h1 id="center">Find out how to make all the Peepos happy at the same time!</h1>
+            <p>Click the done button at the bottom when you're finished!</p>
         </div>
         <div class="row">
             <div class="column">
@@ -21,13 +22,15 @@
             </div>
         </div>
         <div>
-            <button id="sp1hint" type="button" onclick="sp1Hint()">Hint?</button>
-            <button id="sp2hint" type="button" onclick="sp2Hint()">Hint?</button>
-            <button id="left" type="button" onclick="previousImage()"><-</button>
-            <button id="right" type="button" onclick="nextImage()">-></button>
-        </div>
-        <div>
-            <button id="check" type="button" onclick="check()">Done?</button>
+            <div>
+                <button id="sp1hint" class="button button1" type="button" onclick="sp1Hint()">Hint?</button>
+                <button id="sp2hint" class="button button2" type="button" onclick="sp2Hint()">Hint?</button>
+                <button id="left" class="button button3" type="button" onclick="previousImage()"><-</button>
+                <button id="right" class="button button4" type="button" onclick="nextImage()">-></button>
+            </div>
+            <div>
+                <button id="check" class="button button5" type="button" onclick="check()">Done?</button>
+            </div>
         </div>
     </body>
 </html>

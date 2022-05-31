@@ -19,7 +19,7 @@ function sp2b() {
     }
 }
 function sp2Hint() {
-    alert("Try hovering your mouse over peepo!")
+    alert("Try hovering your mouse over peepo!");
 }
 
 //Array for last peepo task
